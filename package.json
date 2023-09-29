@@ -1,0 +1,27 @@
+{
+	"name": "mannomic",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"main": "src/index.js",
+	"scripts": {
+	    "start": "node -r dotenv/config ./src/index.js",
+            "postinstall": "node ./scripts/healthcheck.mjs"
+
+	},
+	"keywords": [
+		"javacsript",
+		"sern",
+		"discord.js"
+	],
+	"license": "UNLICENSED",
+	"dependencies": {
+		"@sern/handler": "^3.0.3",
+		"discord.js": "latest",
+		"dotenv": "^16.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.25"
+	},
+	"type": "module"
+}
