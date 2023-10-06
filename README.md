@@ -12,6 +12,6 @@
 - obtain discord token and client id
     - [guide to get started](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
     - insert these credentials in your .env file
-- run `sern commands publish` in root directory of terminal
+- run `sern commands publish` in root directory of project
     - every time you add new commands, you'll need to republish to the discord API.
 - run `npm start` in terminal
